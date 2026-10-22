@@ -1,0 +1,38 @@
+﻿# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local databases
+.env
+.env.*
+!.env.example
+users.db
+users.db-*
+*.sqlite
+*.sqlite3
+
+# Datasets and audio files
+data/
+test_samples/
+test_samples_wav/
+voice_segments/
+*.wav
+*.mp3
+*.flac
+
+# Generated results
+results/
+*.log
+
+# Local backups
+app_backup.py
+app_before_*.py
+src/*_before_*.py
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
